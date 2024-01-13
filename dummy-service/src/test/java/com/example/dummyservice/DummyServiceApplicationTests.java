@@ -15,6 +15,7 @@ class DummyServiceApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("====> TEST CASE EXECUTING...");
+		logger.info("====> TEST CAST EXECUTING SECOND TIME...");
 		assertEquals(true,true); //dummy test cases to check it in jenkins
 	}
 
